@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.name{
+    color: blue;
+}
+.halfwidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}.halfwidth img{
+  width: 100%;  
+}
