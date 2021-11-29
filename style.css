@@ -1,7 +1,14 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
 body{
+    margin: 0%;
     font-family: 'Playfair Display', serif;
 }
 .name{
@@ -15,4 +22,51 @@ body{
 
 }.halfwidth img{
   width: 100%;  
+}
+.topbanner{
+    
+background-image: url("picture/top-banner.png");
+background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+
+}
+.dreambig{
+    background-image: url("picture/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.singlexp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+}
+.xprnc{
+    background-image: url("picture/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+border-left: 7px solid;
+ border-image: linear-gradient(180deg, lightsalmon , tomato );
+ border-image-slice: 1;
+}
+#babywebi{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue , cyan   );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
